@@ -1,0 +1,7 @@
+import random
+dieNumber = int(input("How many sides? "))
+pro_num = int(input("Proficency?"))
+
+rolled_num = random.randint(1,dieNumber)
+rolled_ans =rolled_num + pro_num
+print("You rolled: ", rolled_ans)
